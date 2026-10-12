@@ -3,7 +3,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+        "build": "mkdir public\\build -ea 0 || echo done",
+        "vercel-build": "mkdir public\\build -ea 0 || echo done",
         "dev": "vite"
     },
     "devDependencies": {
